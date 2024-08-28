@@ -11,7 +11,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
 
-    fetch('https://json-blog-server.vercel.app/blogs/', {
+    fetch('https://json-server-m1imv9s1w-manasvi-sharmas-projects.vercel.app/blogs', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
